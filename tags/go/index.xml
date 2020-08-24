@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on My New Hugo Site</title>
+    <link>https://roycyt.github.io/tags/go/</link>
+    <description>Recent content in Go on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Aug 2020 23:04:25 +0800</lastBuildDate><atom:link href="https://roycyt.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Go] Command Line Arguments</title>
+      <link>https://roycyt.github.io/posts/go-command-line-arguments/</link>
+      <pubDate>Mon, 24 Aug 2020 23:04:25 +0800</pubDate>
+      
+      <guid>https://roycyt.github.io/posts/go-command-line-arguments/</guid>
+      <description>import &amp;quot;os&amp;quot; os.Args (type: []string) hold the command-line arguments, starting with the program name.
+Program name: os.Args[0]
+List of arguments: os.Args[1:]
+Number of arguments: len(os.Args[1:]</description>
+    </item>
+    
+  </channel>
+</rss>
