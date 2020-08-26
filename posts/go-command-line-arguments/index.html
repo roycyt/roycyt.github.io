@@ -25,13 +25,17 @@
   <meta name="description" content="import &quot;os&quot; os.Args (type: []string) hold the command-line arguments, starting with the program name.
 Program name: os.Args[0]
 List of arguments: os.Args[1:]
-Number of arguments: len(os.Args[1:]">
+Number of arguments: len(os.Args[1:]
+Convert the argument from string to integer:
+import &quot;strconv&quot; num, err := strconv.Atoi(os.Args[1]) ">
 
   <meta property="og:title" content="[Go] Command Line Arguments" />
 <meta property="og:description" content="import &quot;os&quot; os.Args (type: []string) hold the command-line arguments, starting with the program name.
 Program name: os.Args[0]
 List of arguments: os.Args[1:]
-Number of arguments: len(os.Args[1:]" />
+Number of arguments: len(os.Args[1:]
+Convert the argument from string to integer:
+import &quot;strconv&quot; num, err := strconv.Atoi(os.Args[1]) " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://roycyt.github.io/posts/go-command-line-arguments/" />
 <meta property="article:published_time" content="2020-08-24T23:04:25+08:00" />
@@ -106,7 +110,11 @@ Number of arguments: len(os.Args[1:]" />
 <p>Program name: <code>os.Args[0]</code></p>
 <p>List of arguments: <code>os.Args[1:]</code></p>
 <p>Number of arguments: <code>len(os.Args[1:]</code></p>
+<p>Convert the argument from string to integer:</p>
+<pre><code>import &quot;strconv&quot;
 
+num, err := strconv.Atoi(os.Args[1])
+</code></pre>
 </div>
 
 

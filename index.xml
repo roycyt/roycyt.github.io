@@ -6,7 +6,16 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 23:04:25 +0800</lastBuildDate><atom:link href="https://roycyt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2020 23:44:23 +0800</lastBuildDate><atom:link href="https://roycyt.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://roycyt.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 25 Aug 2020 23:44:23 +0800</pubDate>
+      
+      <guid>https://roycyt.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>[Go] Command Line Arguments</title>
       <link>https://roycyt.github.io/posts/go-command-line-arguments/</link>
@@ -16,7 +25,9 @@
       <description>import &amp;quot;os&amp;quot; os.Args (type: []string) hold the command-line arguments, starting with the program name.
 Program name: os.Args[0]
 List of arguments: os.Args[1:]
-Number of arguments: len(os.Args[1:]</description>
+Number of arguments: len(os.Args[1:]
+Convert the argument from string to integer:
+import &amp;quot;strconv&amp;quot; num, err := strconv.Atoi(os.Args[1]) </description>
     </item>
     
   </channel>
