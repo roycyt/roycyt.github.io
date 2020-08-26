@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://roycyt.github.io/posts/my-first-post/</loc>
-    <lastmod>2020-08-25T23:44:23+08:00</lastmod>
+    <loc>https://roycyt.github.io/tags/go/</loc>
+    <lastmod>2020-08-27T00:25:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://roycyt.github.io/posts/go-resources/</loc>
+    <lastmod>2020-08-27T00:25:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://roycyt.github.io/</loc>
-    <lastmod>2020-08-25T23:44:23+08:00</lastmod>
+    <lastmod>2020-08-27T00:25:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://roycyt.github.io/posts/</loc>
-    <lastmod>2020-08-25T23:44:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://roycyt.github.io/posts/go-command-line-arguments/</loc>
-    <lastmod>2020-08-24T23:04:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://roycyt.github.io/tags/go/</loc>
-    <lastmod>2020-08-24T23:04:25+08:00</lastmod>
+    <lastmod>2020-08-27T00:25:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://roycyt.github.io/tags/</loc>
+    <lastmod>2020-08-27T00:25:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://roycyt.github.io/posts/go-command-line-arguments/</loc>
     <lastmod>2020-08-24T23:04:25+08:00</lastmod>
   </url>
   
