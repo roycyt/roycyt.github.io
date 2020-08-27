@@ -6,10 +6,24 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 07:30:08 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 14:39:32 +0800</lastBuildDate>
     
 	<atom:link href="https://roycyt.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conky</title>
+      <link>https://roycyt.github.io/posts/conky/</link>
+      <pubDate>Thu, 27 Aug 2020 14:39:32 +0800</pubDate>
+      
+      <guid>https://roycyt.github.io/posts/conky/</guid>
+      <description>AppImage is available: https://github.com/brndnmtthws/conky/releases
+Create the config file:
+$ conky-x86_64.AppImage -C &amp;gt; ~/.conkyrc Customize:
+- alignment = &#39;top_left&#39;, + alignment = &#39;top_right&#39;, - font = &#39;DejaVu Sans Mono:size=12&#39;, + font = &#39;Hack:size=11&#39;, + own_window_argb_visual = true, + own_window_argb_value = 50, -Up:$color ${upspeed} ${color grey} - Down:$color ${downspeed} +Up:$color ${upspeed wlp3s0} ${color grey} - Down:$color ${downspeed wlp3s0} Start conky:
+$ conky-x86_64.AppImage Add conky to the startup applications:
+$ gnome-session-properties </description>
+    </item>
     
     <item>
       <title>[Go] Standard Input</title>
