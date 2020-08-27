@@ -6,10 +6,19 @@
     <description>Recent content in Go on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 19:04:37 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 23:04:03 +0800</lastBuildDate>
     
 	<atom:link href="https://roycyt.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Go] Pattern Matching</title>
+      <link>https://roycyt.github.io/posts/go-pattern-matching/</link>
+      <pubDate>Thu, 27 Aug 2020 23:04:03 +0800</pubDate>
+      
+      <guid>https://roycyt.github.io/posts/go-pattern-matching/</guid>
+      <description>regexp pattern := &amp;quot;lo_wor&amp;quot; source := &amp;quot;hello world&amp;quot; matched, err := regexp.MatchString(pattern, source) // matched: true parse, err := regexp.Compile(&amp;quot;[Hh]ello&amp;quot;) matched := parse.MatchString(&amp;quot;Hello world&amp;quot;) // true matched = parse.MatchString(&amp;quot;hello world&amp;quot;) // true </description>
+    </item>
     
     <item>
       <title>[Go] Random Numbers</title>

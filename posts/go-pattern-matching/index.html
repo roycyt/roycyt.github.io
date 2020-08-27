@@ -10,13 +10,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>
     
-    Posts tagged with
-    
-    Tags
+    [Go] Pattern Matching
     
   </title>
   <link rel="stylesheet" href='https://roycyt.github.io/css/site.min.79fe936623aa76027ec7f37e2c1f88575bc07ec92581712940e3dd619a002236e0522d1202b5d1f6df0ddca3a2aea9a163ce58001d960ed138f4f19e83fa83db.css' integrity='sha512-ef6TZiOqdgJ&#43;x/N&#43;LB&#43;IV1vAfsklgXEpQOPdYZoAIjbgUi0SArXR9t8N3KOirqmhY85YAB2WDtE49PGeg/qD2w=='>
-  <link rel="canonical" href="https://roycyt.github.io/tags/">
+  <link rel="canonical" href="https://roycyt.github.io/posts/go-pattern-matching/">
   <link rel="alternate" type="application/rss&#43;xml" href="https://roycyt.github.io/index.xml" title="My New Hugo Site">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="HandheldFriendly" content="True">
@@ -24,13 +22,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer">
   
-  <meta name="description" content="">
+  <meta name="description" content="regexp pattern := &quot;lo_wor&quot; source := &quot;hello world&quot; matched, err := regexp.MatchString(pattern, source) // matched: true parse, err := regexp.Compile(&quot;[Hh]ello&quot;) matched := parse.MatchString(&quot;Hello world&quot;) // true matched = parse.MatchString(&quot;hello world&quot;) // true ">
 
-  <meta property="og:title" content="Tags" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://roycyt.github.io/tags/" />
-<meta property="og:updated_time" content="2020-08-27T23:04:03+08:00" />
+  <meta property="og:title" content="[Go] Pattern Matching" />
+<meta property="og:description" content="regexp pattern := &quot;lo_wor&quot; source := &quot;hello world&quot; matched, err := regexp.MatchString(pattern, source) // matched: true parse, err := regexp.Compile(&quot;[Hh]ello&quot;) matched := parse.MatchString(&quot;Hello world&quot;) // true matched = parse.MatchString(&quot;hello world&quot;) // true " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://roycyt.github.io/posts/go-pattern-matching/" />
+<meta property="article:published_time" content="2020-08-27T23:04:03+08:00" />
+<meta property="article:modified_time" content="2020-08-27T23:04:03+08:00" />
 
 </head>
 <body><nav class="navbar is-transparent " role="navigation" aria-label="main navigation">
@@ -72,26 +71,38 @@
   <section class="hero is-small is-info is-fullwidth">
     <div class="hero-body">
 <div class="container">
-  <article class="media">
-    <div class="media-content">
-      <h1 class="title">
-        Posts tagged with 
-      </h1>
-    </div>
-  </article>
+  <h1 class="title">
+    [Go] Pattern Matching
+  </h1>
+  <h2 class="subtitle">
+    <time datetime='2020-08-27T23:04:03&#43;08:00'>
+      August 27, 2020
+    </time>
+    
+    <br>
+    
+    
+    
+    <a class="tag is-link" href="https://roycyt.github.io/tags/go/">Go</a>
+    
+    
+    
+  </h2>
 </div>
 
     </div>
   </section>
   <section class="section">
     <div class="container">
-<div class="posts">
-  
-  <div class="post">
-    <div><a href="https://roycyt.github.io/tags/go/" class="title is-size-5">Go</a></div>
-    <div class="subtitle is-6">August 27, 2020</div>
-  </div>
-  
+<div class="content is-medium">
+  <h1 id="regexp">regexp</h1>
+<pre><code>pattern := &quot;lo_wor&quot;
+source := &quot;hello world&quot;
+matched, err := regexp.MatchString(pattern, source) // matched: true
+</code></pre><pre><code>parse, err := regexp.Compile(&quot;[Hh]ello&quot;)
+matched := parse.MatchString(&quot;Hello world&quot;) // true
+matched = parse.MatchString(&quot;hello world&quot;) // true
+</code></pre>
 </div>
 
 
