@@ -6,10 +6,22 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 23:04:03 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 18:40:00 +0800</lastBuildDate>
     
 	<atom:link href="https://roycyt.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PlantUML</title>
+      <link>https://roycyt.github.io/posts/plantuml/</link>
+      <pubDate>Mon, 31 Aug 2020 18:40:00 +0800</pubDate>
+      
+      <guid>https://roycyt.github.io/posts/plantuml/</guid>
+      <description>Play with the online server without installation.
+Prerequisite:
+$ sudo apt install default-jre graphviz $ java -version openjdk version &amp;quot;11.0.8&amp;quot; 2020-07-14 OpenJDK Runtime Environment (build 11.0.8+10-post-Ubuntu-0ubuntu120.04) OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu120.04, mixed mode, sharing) Installation:
+ Download the PlantUML compiled Jar.  $ java -jar ~/opt/plantuml.1.2020.16.jar -version PlantUML version 1.2020.16 (Mon Aug 24 04:20:43 CST 2020) (GPL source distribution) Java Runtime: OpenJDK Runtime Environment JVM: OpenJDK 64-Bit Server VM Default Encoding: UTF-8 Language: en Country: US PLANTUML_LIMIT_SIZE: 4096 Dot version: dot - graphviz version 2.</description>
+    </item>
     
     <item>
       <title>[Go] Pattern Matching</title>
